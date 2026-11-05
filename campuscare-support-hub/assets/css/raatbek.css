@@ -1,0 +1,26 @@
+/* Вариант студенческого проекта: лаконичная внутренняя система заявок.
+   Основная структура и работа JavaScript остаются без изменений. */
+:root{--accent:#2f5b74;--accent2:#d8e2e7;--bg:#f4f5f6;--surface:#fff;--line:#d9dfe3;--text:#202a2f;--muted:#69767d}
+body{font-family:Arial, 'Segoe UI',sans-serif;background:#f4f5f6;color:#202a2f}
+.sidebar{background:#e9eef1!important;color:#273c49!important;box-shadow:none!important;border-right:1px solid #d1dbe0}
+.sidebar .brand,.sidebar .brand strong,.sidebar .nav-link{color:#2d4754!important}
+.sidebar .brand small,.sidebar .sidebar-section,.sidebar .sidebar-footer{color:#617784!important}
+.brand-mark{background:#507185!important;color:white!important;border-radius:3px!important;font-size:19px}
+.sidebar .nav-link{border-radius:3px!important}
+.sidebar .nav-link.active{background:#d6e3e9!important;color:#173d56!important;border-left:3px solid #507185;box-shadow:none!important}
+.sidebar .nav-link:hover{background:#dce6eb!important;color:#173d56!important}
+.topbar{background:white!important;border-bottom:1px solid #d8e0e5!important;box-shadow:none!important}
+.main-column,.container{background:#f4f5f6}
+.welcome{padding-top:6px}
+.welcome h1{font-size:27px;letter-spacing:normal;font-weight:650}
+.eyebrow{color:#607986!important;letter-spacing:0!important;font-weight:600!important;font-size:11px}
+.kpi,.panel,.card,.compact-item,.table-card{border:1px solid #d8e0e5!important;background:#fff!important;border-radius:3px!important;box-shadow:none!important}
+.kpi{border-top:1px solid #d8e0e5!important}
+.kpi-number,.version-number{color:#243b4e!important}
+.button.primary,.small-button.success{background:#3b647b!important;color:white!important;border:1px solid #3b647b!important;border-radius:4px!important;box-shadow:none!important}
+.text-link{color:#275d7c!important}
+.panel-title h2{letter-spacing:0;font-size:17px}
+.footer{color:#65747c!important}
+#exportIncidents{margin:10px 0 18px;background:#eef3f6;border:1px solid #b4c7d2;border-radius:3px;color:#294f64;padding:9px 13px;cursor:pointer;font-weight:600}
+#exportIncidents:hover{background:#dceaf1}
+@media(max-width:700px){#exportIncidents{width:100%}}
